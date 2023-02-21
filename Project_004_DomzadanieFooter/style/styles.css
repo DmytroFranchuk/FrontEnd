@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1ABC9C;
+    height: 70px;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    /* height: 70px; */
+    /* background-color: blueviolet; */    
+}
+
+.header-wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+a:not(:last-child){
+    margin-right: 20px;
+}
+
+.social-icon:not(:last-child){
+    margin-right: 20px;
+}
+/* О нас */
+.about{
+    display: flex;
+    align-items: center;
+}
+
+.about-img{
+    /* height: 100%; */
+    width: 50%;
+}
+
+.about-info{
+    padding: 0 65px;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center; 
+    margin-bottom: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-descr{
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.projects{
+    background-color: #dcffeb;
+    padding: 125px 0;
+
+}
+
+.projects-list{
+    display: flex;
+    gap: 35px;
+}
+
+.projects-item{
+    width: calc(100% / 3 - 18px);
+}
+
+h2{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+/* Домашнее задание */
+
+footer {
+    background-color: white;
+    width: calc(100% - 138px);
+    margin: 84px auto 76px;
+   
+}
+
+h3 {
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.footer-item {
+    margin-top: 55px;
+    width: calc(92% / 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-img {
+    margin-bottom: 36px;
+    width: 35px;
+    height: 35px;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 25px;
+}
+
+.footr-descr {
+    font-size: 16px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+
