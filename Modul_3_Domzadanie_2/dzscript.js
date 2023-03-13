@@ -1,20 +1,32 @@
 // Задача_1 способ_1
-let x = 1
-for(let i = 0; i <= 10; i++) {
-    if(x == 2){
-        console.log(i) 
-        x = 1       
-    } else {
-        x++
-    }
-}
+// let x = 1
+// while(x <= 10) {
+//     console.log(x)
+//     x = x + 2
+// }
 
 // Задача_1 способ_2
-for(let i = 0; i <= 10; i++) {
-    if(i % 2 == 1){
-        console.log(i)      
-    }
+for(let i = 1; i <= 10; i = i+2) {
+    console.log(i)
 }
+
+// Задача_1 способ_3
+// let x = 1
+// for(let i = 0; i <= 10; i++) {
+//     if(x == 2){
+//         console.log(i) 
+//         x = 1       
+//     } else {
+//         x++
+//     }
+// }
+
+// Задача_1 способ_4
+// for(let i = 0; i <= 10; i++) {
+//     if(i % 2 == 1){
+//         console.log(i)      
+//     }
+// }
 
 // Задача_2
 for(let i = 55; i >= 20; i--) {
