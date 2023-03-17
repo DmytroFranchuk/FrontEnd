@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color:cadetblue;    
+}
+
+h4 {
+    margin-left: 46.5%;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.task {
+    height: 350px; 
+    padding: 20px;
+    margin: 20px 36%;
+    border-radius: 16px;
+    background-color: #f2f2f2;
+    border: 2px solid rgb(65, 99, 100);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.change-square{
+    width: 177px;
+    font-size: 20px;
+    padding: 14px;
+    margin: 10px;
+    border: 4px solid #8b8a8a;
+    border-radius: 16px;
+    background-color: #dedede;     
+}
+
+.root{
+    width: 95%;
+    height: 200px;   
+    border-radius: 16px;
+    border: 2px solid cadetblue;
+    background-color: rgb(65, 99, 100);
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.square {
+    width: 200px;
+    height: 200px;   
+    border: 3px solid black; 
+    margin: auto
+    
+}
+.sqr1 {    
+    background-color: red;
+    transition: 1.85s;   
+}
+
+.sqr2 {    
+    background-color: pink;
+}
+
+.sqr3 {
+    width: 20px;
+    height: 20px;
+}
+
+.change-square:hover {
+    background-color: #aaa;
+}
+
+.change-square:active {
+    background-color: #444;
+    border-color: #aaa; 
+    color:cyan;
+}
+
+.sqr1-resized {
+    background-color: green;  
+    width: 100px; 
+    height: 100px; 
+    border: 3px solid black;    
+}
+
+.sqr2-resized {
+    background-color: blue;
+}
